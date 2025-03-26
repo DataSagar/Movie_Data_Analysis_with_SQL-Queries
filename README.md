@@ -11,7 +11,7 @@
 
 -  SQL Clauses: ORDER BY, WHERE, HAVING
 
--  SQL Operators: IN, BETWEEN, LIKE, Not Equal To
+-  SQL Operators: IN, BETWEEN, LIKE, NOT EQUAL TO
 
 
    ****
