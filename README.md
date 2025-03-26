@@ -9,17 +9,10 @@
  
 **✅ SQL Concepts Used:**
 
--   ORDER BY – Sorting movies by release year (latest first)
+-  SQL Clauses: ORDER BY, WHERE, HAVING
 
--   BETWEEN – Filtering movies within a specific range (e.g., released after 2020)
+-  SQL Operators: IN, BETWEEN, LIKE, !=
 
--   IN – Selecting movies based on a predefined set of values (e.g., specific studios)
-
--   LIKE – Used for pattern matching (e.g., WHERE title LIKE '%thor%')
-
--   HAVING – Filtering aggregated results based on conditions (e.g., movies after 2020 with IMDb rating > 8)
-
--   != – Excluding specific values from results (e.g., selecting movies not from Marvel Studios)
 
    ****
   
