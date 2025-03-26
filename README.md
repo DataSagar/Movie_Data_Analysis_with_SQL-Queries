@@ -15,7 +15,7 @@
 
 -   IN – Selecting movies based on a predefined set of values (e.g., specific studios)
 
--   LIMIT & OFFSET – Controlling result sets for pagination or refined selection
+-   LIKE – Used for pattern matching (e.g., WHERE title LIKE '%thor%')
 
 -   HAVING – Filtering aggregated results based on conditions (e.g., movies after 2020 with IMDb rating > 8)
 
