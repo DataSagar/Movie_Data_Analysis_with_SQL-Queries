@@ -17,6 +17,10 @@
 
 -   LIMIT & OFFSET – Controlling result sets for pagination or refined selection
 
+-   HAVING – Filtering aggregated results based on conditions (e.g., movies after 2020 with IMDb rating > 8)
+
+-   != – Excluding specific values from results (e.g., selecting movies not from Marvel Studios)
+
    ****
   
  
