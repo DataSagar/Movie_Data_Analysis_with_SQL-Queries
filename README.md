@@ -21,7 +21,7 @@
    
   Each report corresponds to an SQL query exercise:
  
-1️⃣ [Movies Sorted by Release Year](https://github.com/DataSagar/-Movie-Data-Analysis-with-SQL-Queries/blob/main/report_1.1.pdf)
+1️⃣ [Movies Sorted by Release Year](https://github.com/DataSagar/Movie_Data_Analysis_with_SQL-Queries/blob/main/1.pdf)
 
 -    Retrieves all movies ordered latest first.
 
@@ -32,7 +32,7 @@ ORDER BY release_year DESC;
 
 
 
-2️⃣ [Movies Released in 2022](https://github.com/DataSagar/-Movie-Data-Analysis-with-SQL-Queries/blob/main/report_2.1.pdf)
+2️⃣ [Movies Released in 2022](https://github.com/DataSagar/Movie_Data_Analysis_with_SQL-Queries/blob/main/2.pdf)
 
 -    Filters movies only from the year 2022.
 
@@ -43,7 +43,7 @@ WHERE release_year = 2022;
 
 
 
-3️⃣ [Movies Released After 2020](https://github.com/DataSagar/-Movie-Data-Analysis-with-SQL-Queries/blob/main/report_3.1.pdf)
+3️⃣ [Movies Released After 2020](https://github.com/DataSagar/Movie_Data_Analysis_with_SQL-Queries/blob/main/3.pdf)
 
 -    Retrieves movies released after 2020.
 
@@ -54,7 +54,7 @@ WHERE release_year > 2020;
 
 
 
-4️⃣ [Movies After 2020 with IMDb Rating > 8](https://github.com/DataSagar/-Movie-Data-Analysis-with-SQL-Queries/blob/main/report_4.1.pdf)
+4️⃣ [Movies After 2020 with IMDb Rating > 8](https://github.com/DataSagar/Movie_Data_Analysis_with_SQL-Queries/blob/main/4.pdf)
 
 -    Filters movies released after 2020 with a rating higher than 8.
 
@@ -66,7 +66,7 @@ HAVING imdb_rating > 8;
 
 
 
-5️⃣ [Movies by Marvel Studios & Hombale Films](https://github.com/DataSagar/-Movie-Data-Analysis-with-SQL-Queries/blob/main/report_5.1.pdf)
+5️⃣ [Movies by Marvel Studios & Hombale Films](https://github.com/DataSagar/Movie_Data_Analysis_with_SQL-Queries/blob/main/5.pdf)
 
 -    Selects movies produced only by these studios.
 
@@ -76,7 +76,7 @@ FROM movies
 WHERE studio in ('Marvel studios' , 'Hombale Films');
 
 
-6️⃣ [All THOR Movies Sorted by Release Year](https://github.com/DataSagar/-Movie-Data-Analysis-with-SQL-Queries/blob/main/report_6.1.pdf)
+6️⃣ [All THOR Movies Sorted by Release Year](https://github.com/DataSagar/Movie_Data_Analysis_with_SQL-Queries/blob/main/6.pdf)
 
 -    Retrieves only THOR movies, sorted chronologically.
 
@@ -87,7 +87,7 @@ WHERE title like '%thor%'
 ORDER BY release_year ASC;
 
 
-7️⃣ [Movies Not from Marvel Studios](https://github.com/DataSagar/-Movie-Data-Analysis-with-SQL-Queries/blob/main/report_7.1.pdf)
+7️⃣ [Movies Not from Marvel Studios](https://github.com/DataSagar/Movie_Data_Analysis_with_SQL-Queries/blob/main/7.pdf)
 
 -    Selects movies excluding Marvel Studios productions.
 
